@@ -58,7 +58,7 @@ This guide may also be useful to you if you own any of the monitors from the tab
 |Component|Description|Qty|Links|
 |---------|-----------|---|-----|
 |Ceramic capacitor|Surface mount, non-polarised - 0.1µF|3|[Digi-Key - 445-1418-1-ND](https://www.digikey.com.au/product-detail/en/tdk-corporation/C2012X7R2A104K125AA/445-1418-1-ND/569084)|
-|Resistor|Through Hole - 75 ohm 0.25W|6|[Digi-Key - S75CACT-ND](https://www.digikey.com.au/product-detail/en/stackpole-electronics-inc/RNMF14FTC75R0/S75CACT-ND/2617815)|
+|Resistor|Through hole - 75 ohm 0.25W|6|[Digi-Key - S75CACT-ND](https://www.digikey.com.au/product-detail/en/stackpole-electronics-inc/RNMF14FTC75R0/S75CACT-ND/2617815)|
 |Resistor|Through hole - 10 ohm 0.25W|2|[Digi-Key - CF14JT10R0CT-ND](https://www.digikey.com.au/product-detail/en/stackpole-electronics-inc/CF14JT10R0/CF14JT10R0CT-ND/1830306)|
 |Switch|Side actuated, through hole, right angle|2|[Digi-Key - P12233SCT-ND](https://www.digikey.com.au/product-detail/en/panasonic-electronic-components/EVQ-PC105K/P12233SCT-ND/593537)|
 |BNC Connectors|Female socket|4|[Digi-Key - 2057-RF1-106-D-00-50-HDW-ND](https://www.digikey.com.au/product-detail/en/adam-tech/RF1-106-D-00-50-HDW/2057-RF1-106-D-00-50-HDW-ND/9830449)<br>[Jaycar - PS0658 (Australia)](https://www.jaycar.com.au/bnc-panel-socket-single-hole-mount/p/PS0658)|
@@ -121,7 +121,7 @@ Add component|SMD capacitor|C310|
 Add component|SMD capacitor|C311|
 Add component|SMD capacitor|C312|
 Add component|MC14052BCP|IC401|
-Add component|BA7604N|IC401|
+Add component|BA7604N|IC402|
 Add component|Tactile switch|S006|
 Add component|Tactile switch|S008|
 
