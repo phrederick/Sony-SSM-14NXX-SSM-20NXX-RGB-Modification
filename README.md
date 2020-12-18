@@ -117,6 +117,9 @@ Remove component|Jumper wire|JW402|
 Remove component|Jumper wire|JW403|
 Add component|10 ohm resistor|R030|
 Add component|10 ohm resistor|R032|
+Add component|SMD capacitor|C310|
+Add component|SMD capacitor|C311|
+Add component|SMD capacitor|C312|
 Add component|MC14052BCP|IC401|
 Add component|BA7604N|IC401|
 Add component|Tactile switch|S006|
