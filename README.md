@@ -12,8 +12,11 @@
     - [Step 1.2 - Detaching the Q board and releasing the Q board from the connector mounting plate](#step-12---detaching-the-q-board-and-releasing-the-q-board-from-the-connector-mounting-plate)
     - [Step 1.3 - Removing the A board](#step-13---removing-the-a-board)
   - [Step 2 - Q board and mounting panel modifications](#step-2---q-board-and-mounting-panel-modifications)
+    - [Q board and mounting panel modification images](#q-board-and-mounting-panel-modification-images)
   - [Step 3 - A board modifications](#step-3---a-board-modifications)
+    - [A board modification images](#a-board-modification-images)
   - [Step 4 - Case / enclosure modifications](#step-4---case--enclosure-modifications)
+    - [Case / enclosure modification images](#case--enclosure-modification-images)
   - [References and acknowledgements](#references-and-acknowledgements)
 
 ## Overview
@@ -44,7 +47,7 @@ This guide may also be useful to you if you own any of the monitors from the tab
 ## Tools List
 ### Required
 * Screwdriver
-* Soldering iron (I used a TS-80)
+* Soldering iron (I used a TS100)
 * Desoldering braid / Desoldering tool
 * Solder (I used 0.7mm)
 * Insulated wire
@@ -95,23 +98,30 @@ At the high level, dismantling the monitor for this modification involves the fo
 Now that the Q board has been released from the mounting plate, you can add the required components. I did it by first adding the BNC connectors to the mounting plate and soldering wire into the solder cup terminals which I then fed through the appropriate holes in the Q board. I then used insulated wires on the BNC ground lugs that wrapped around and attached to a single ground terminal on the Q board / mounting plate.
 
 Action|Part|Location / Notes|
-------|----|--------|
+------|----|----------------|
 Add component|75 ohm resistor|R1339|
 Add component|75 ohm resistor|R1344|
 Add component|75 ohm resistor|R1346|
-Add component|75 ohm resistor|Tieing BNC pin directly to ANA-R at CN1303|
-Add component|75 ohm resistor|Tieing BNC pin directly to ANA-G at CN1303|
-Add component|75 ohm resistor|Tieing BNC pin directly to ANA-B at CN1303|
+Add component|75 ohm resistor|Tieing BNC pin directly to ANA-R at CN1303. You can attach to the emitter pin at Q1308|
+Add component|75 ohm resistor|Tieing BNC pin directly to ANA-G at CN1303. You can attach to the emitter pin at Q1309|
+Add component|75 ohm resistor|Tieing BNC pin directly to ANA-B at CN1303. You can attach to the emitter pin at Q1310|
 Add component|Insulated wire|Tieing the Sync BNC pin to EXT SYNC at CN402 on A board|
 Add component|Insulated wire|**Optional** - Tieing AUDIO at CN1303 to emitter pin at Q1305|
 
 The optional jumper wire for the Audio means that the RGB and Line A will share the same 'Audio In' jack.
 
+### Q board and mounting panel modification images
+Image|Notes|
+-----|-----|
+|<img src="https://i.imgur.com/7zH86tG.jpg" width="300">|Q board, showing all component modification locations.|
+|<img src="https://i.imgur.com/0IfgGnd.jpg" width="300">|Q board, showing an example of how to attach the BNC connectors.|
+|<img src="https://i.imgur.com/40ZhIf3.jpg" width="300">|Q board and A board, showing an example of how to connect the sync wire.|
+
 ## Step 3 - A board modifications
-Modifying the A board is pretty straight-forward. It's just a matter of removing and adding a few components. As noted earlier, some of these changes not necessary if you are modifying the **non-SSM** variants based on the same chassis.
+Modifying the A board is pretty straight-forward. It's just a matter of removing and adding a few components. As noted earlier, some of these changes are not necessary if you are modifying the **non-SSM** variants based on the same chassis.
 
 Action|Part|Location / Notes|
-------|----|--------|
+------|----|----------------|
 Remove component|Jumper wire|JW401|
 Remove component|Jumper wire|JW402|
 Remove component|Jumper wire|JW403|
@@ -125,11 +135,25 @@ Add component|BA7604N|IC402|
 Add component|Tactile switch|S006|
 Add component|Tactile switch|S008|
 
+### A board modification images
+Image|Notes|
+-----|-----|
+|<img src="https://i.imgur.com/1zPY3th.jpg" width="300">|A board, showing all component modification locations.|
+|<img src="https://i.imgur.com/retnfXi.jpg" width="300">|A board, detailed image showing where the ICs and jumper wire cuts / removals are to be made.|
+|<img src="https://i.imgur.com/zdiLlXD.jpg" width="300">|A board, detailed image showing where to attach the SMD capacitors.|
+|<img src="https://i.imgur.com/5jClN18.jpg" width="300">|A board, detailed image showing where to attach the 10 ohm resistors.|
+|<img src="https://i.imgur.com/mKp8iDQ.jpg" width="300">|A board, detailed image showing where to attach the tactile switches.|
+
 ## Step 4 - Case / enclosure modifications
 You will need to make some minor finishing touches to the case. Specifically:
 1. Cutting holes in the rear panel plastic so the BNC connectors can poke through. One way you can do this is by using a scalpel to cut a rough but slightly smaller diameter circle out from behind and then roll up some 240 grit sandpaper and sand down the remaining overlap.
 2. Cutting holes in the front panel plastic so you can reach the tactile buttons used for switching between your two inputs (Line A and RGB).
 3. Adding labels for your new inputs and buttons.
+
+### Case / enclosure modification images
+Image|Notes|
+-----|-----|
+|<img src="https://i.imgur.com/GO5K9MK.jpg" width="300">|Rear panel, showing an example of how to modify the rear panel.|
 
 ## References and acknowledgements
 * The official service manual for the 'SIIA' chassis: http://diagramas.diagramasde.com/otros/SSM-20N5U_9976686010-00e.pdf
