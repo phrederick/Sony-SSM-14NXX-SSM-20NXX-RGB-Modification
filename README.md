@@ -32,7 +32,8 @@ This guide is specifically for you if you own any of the following monitors, and
 |SSM-14N5E|SSM-20N5E|
 |SSM-14N5U|SSM-20N5U|
 
-This guide may also be useful to you if you own any of the monitors from the table below, as they are also based on the same chassis as the aforementioned 'SSM-XXXXX' monitors. If you own any of these monitors, the mod is actually easier for you as you will not need to add the MC14052BCP and BA7604N ICs, nor will you have to remove certain jumper wires.
+### PVM models
+This guide may also be useful to you if you own any of the monitors from the table below, as they are also based on the same chassis as the aforementioned 'SSM-XXXXX' monitors.
 
 |14" Models|20" Models|
 |----------|----------|
@@ -43,6 +44,14 @@ This guide may also be useful to you if you own any of the monitors from the tab
 |PVM-14N6A|PVM-20N6A|
 |PVM-14N6E|PVM-20N6E|
 |PVM-14N6U|PVM-20N6U|
+
+Modifying the PVM models is slightly different, and perhaps even easier depending on your perspective. The mod differences specific to PVM models that I am aware of are:
+
+1. **Important** - Your PVM may or may not have a connector and wiring harness pre-installed at connector CN403 on the A board. If your monitor does not have this connector + harness, then you will need to route your own wires between the A and Q boards, but **be aware** that Sony made a mistake with the PCB labelling for this connector and it is reversed. On the PCB, the red pin is labelled as being closest to the front of the monitor, but the red pin is actually the one closest to the corner of the PCB; all other inputs are respectively reversed too. Therefore, from the corner of the PCB to the front, the pinouts are: R, GND, G, GND, B, GND, and Audio.
+
+2. You may not need to make the same jumper cuts on the A board as noted in the instructions below, as they may already be absent.
+
+3. The BA7604N and MC14052BCP ICs may already be present on your model, which means you will not need to add them.
 
 ## Tools List
 ### Required
