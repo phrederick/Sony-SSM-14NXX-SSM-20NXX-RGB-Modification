@@ -1,23 +1,23 @@
 # SSM-14NXX / SSM-20NXX RGB Modification
 
-- [SSM-14NXX / SSM-20NXX RGB Modification](#ssm-14nxx--ssm-20nxx-rgb-modification)
-  - [Overview](#overview)
-  - [Who this guide is for](#who-this-guide-is-for)
-  - [Tools List](#tools-list)
+- [Overview](#overview)
+- [Who this guide is for](#who-this-guide-is-for)
+    - [PVM models](#pvm-models)
+- [Tools List](#tools-list)
     - [Required](#required)
     - [Highly Recommended](#highly-recommended)
-  - [Parts List](#parts-list)
-  - [Step 1 - Dismantling the monitor](#step-1---dismantling-the-monitor)
+- [Parts List](#parts-list)
+- [Step 1 - Dismantling the monitor](#step-1---dismantling-the-monitor)
     - [Step 1.1 - Removing the case](#step-11---removing-the-case)
     - [Step 1.2 - Detaching the Q board and releasing the Q board from the connector mounting plate](#step-12---detaching-the-q-board-and-releasing-the-q-board-from-the-connector-mounting-plate)
     - [Step 1.3 - Removing the A board](#step-13---removing-the-a-board)
-  - [Step 2 - Q board and mounting panel modifications](#step-2---q-board-and-mounting-panel-modifications)
+- [Step 2 - Q board and mounting panel modifications](#step-2---q-board-and-mounting-panel-modifications)
     - [Q board and mounting panel modification images](#q-board-and-mounting-panel-modification-images)
-  - [Step 3 - A board modifications](#step-3---a-board-modifications)
+- [Step 3 - A board modifications](#step-3---a-board-modifications)
     - [A board modification images](#a-board-modification-images)
-  - [Step 4 - Case / enclosure modifications](#step-4---case--enclosure-modifications)
+- [Step 4 - Case / enclosure modifications](#step-4---case--enclosure-modifications)
     - [Case / enclosure modification images](#case--enclosure-modification-images)
-  - [References and acknowledgements](#references-and-acknowledgements)
+- [References and acknowledgements](#references-and-acknowledgements)
 
 ## Overview
 The purpose of this document is to explain how to modify a Sony SSM monitor to be able to support RGB. As a disclaimer, I am not an electronics engineer by any means, and all of the information contained within is collated from various sources online. This documentation is mostly for my own reference, but I do hope others find it useful too. While I have done this modification myself, I was standing on the shoulders of others the whole way.
