@@ -177,8 +177,8 @@ Image|Notes|
 -----|-----|
 |<img src="https://i.imgur.com/lDalRr7.jpg" width="300">|Buttons unpainted / unsanded|
 |<img src="https://i.imgur.com/ctR6LBL.jpg" width="300">|Buttons painted / face sanded|
-|<img src="https://i.imgur.com/uoDcK23.gifv" width="300">|Button video - from behind|
-|<img src="https://i.imgur.com/Qe4DM0K.gifv" width="300">|Button video - from front (unsanded prototype)|
+|<img src="https://i.imgur.com/xH0grE9.gif" width="300">|Button video - from behind|
+|<img src="https://i.imgur.com/JDGMtNc.gif" width="300">|Button video - from front (unsanded prototype)|
 
 ## References and acknowledgements
 * The official service manual for the 'SIIA' chassis: http://diagramas.diagramasde.com/otros/SSM-20N5U_9976686010-00e.pdf
