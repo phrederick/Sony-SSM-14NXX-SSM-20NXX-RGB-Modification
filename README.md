@@ -164,6 +164,21 @@ Image|Notes|
 -----|-----|
 |<img src="https://i.imgur.com/GO5K9MK.jpg" width="300">|Rear panel, showing an example of how to modify the rear panel.|
 
+### 3D-printed front panel buttons
+For a small fee, I can 3D print and send you 2 buttons for switching between RGB and Line A that fit perfectly through the existing holes in the front panel of the monitor (the holes hidden behind the vinyl sticker). Note that you will still need to punch or cut a square hole in the vinyl sticker so the button can protrude through.
+
+These buttons are a simple and elegant solution that remain captive in the hole and rest against the newly soldered-in switches.
+
+If you are interested, you can drop me an email: oo2@outlook.com
+The cost is $10 AUD + shipping for 2 buttons. I can also sand and paint them for you for an additional $5 AUD - I will paint them with three coats of Tamiya Acrylic.
+
+Image|Notes|
+-----|-----|
+|<img src="https://i.imgur.com/lDalRr7.jpg" width="300">|Buttons unpainted / unsanded|
+|<img src="https://i.imgur.com/ctR6LBL.jpg" width="300">|Buttons painted / face sanded|
+|<img src="https://i.imgur.com/uoDcK23.mp4" width="300">|Button video - from behind|
+|<img src="https://i.imgur.com/Qe4DM0K.mp4" width="300">|Button video - from front (unsanded prototype)|
+
 ## References and acknowledgements
 * The official service manual for the 'SIIA' chassis: http://diagramas.diagramasde.com/otros/SSM-20N5U_9976686010-00e.pdf
 * freakaftr8's 'Sony SSM-20N5U RGB mod!' guide on the Shmups forum: https://shmups.system11.org/viewtopic.php?f=6&t=66067&p=1400712#p1400712
