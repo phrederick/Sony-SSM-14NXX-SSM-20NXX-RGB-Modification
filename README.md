@@ -175,6 +175,7 @@ The cost is $10 AUD + shipping for 2 buttons. I can also sand and paint them for
 
 Image|Notes|
 -----|-----|
+|<img src="https://i.imgur.com/hqXKFIL.png" width="300">|An example of how these buttons can look once they are installed after the necessary modifications are done to the vinyl sticker.|
 |<img src="https://i.imgur.com/lDalRr7.jpg" width="300">|Buttons unpainted / unsanded.|
 |<img src="https://i.imgur.com/ctR6LBL.jpg" width="300">|Buttons painted / face sanded.|
 |<img src="https://i.imgur.com/xH0grE9.gif" width="300">|Button video - view from inside case.|
