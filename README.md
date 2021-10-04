@@ -171,7 +171,7 @@ For a small fee, I can 3D print and send you 2 buttons for switching between RGB
 These buttons are a simple and elegant solution that remain captive in the hole and rest against the newly soldered-in switches.
 
 If you are interested, you can drop me an email: oo2@outlook.com
-The cost is $10 AUD + shipping for 2 buttons. I can also sand and paint them for you for an additional $5 AUD - I will paint them with three coats of Tamiya Acrylic.
+The cost is $5 AUD + shipping for 2 buttons. I can also sand and paint them for you for an additional $5 AUD - I will paint them with three coats of Tamiya Acrylic.
 
 Image|Notes|
 -----|-----|
