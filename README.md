@@ -166,12 +166,11 @@ Image|Notes|
 |<img src="https://i.imgur.com/GO5K9MK.jpg" width="300">|Rear panel, showing an example of how to modify the rear panel.|
 
 ### 3D-printed front panel buttons
-For a small fee, I can 3D print and send you 2 buttons for switching between RGB and Line A that fit perfectly through the existing holes in the front panel of the monitor (the holes hidden behind the vinyl sticker). Note that you will still need to punch or cut a square hole in the vinyl sticker so the button can protrude through.
+If you have access to a 3D printer, then you can print yourself some face buttons using the STL file here: https://www.thingiverse.com/thing:5029004. Kudos to 'galaxius' for kindly designing and printing the buttons for my own modified monitors.
 
-These buttons are a simple and elegant solution that remain captive in the hole and rest against the newly soldered-in switches.
+Alternatively, for a small fee, I can provide you with two 3D printed buttons for switching between RGB and Line A. If you are interested, you can drop me an email: oo2@outlook.com. The cost is $5 AUD + shipping for 2 buttons. I can also sand and paint them for you for an additional $5 AUD - I will paint them with three coats of Tamiya Acrylic.
 
-If you are interested, you can drop me an email: oo2@outlook.com
-The cost is $5 AUD + shipping for 2 buttons. I can also sand and paint them for you for an additional $5 AUD - I will paint them with three coats of Tamiya Acrylic.
+If you are using the suggested switches (or ones with very similar dimensions), the 3D printed buttons should remain captive in the hole and rest neatly against the switch acutator. Note that you will still need to punch or cut a square hole in the vinyl sticker so the button can protrude through.
 
 Image|Notes|
 -----|-----|
