@@ -18,6 +18,7 @@
 - [Step 4 - Case / enclosure modifications](#step-4---case--enclosure-modifications)
     - [Case / enclosure modification images](#case--enclosure-modification-images)
     - [3D-printed front panel buttons](#3d-printed-front-panel-buttons)
+    - [Reproduction faceplate decals](#reproduction-faceplate-decals)
 - [References and acknowledgements](#references-and-acknowledgements)
 
 ## Overview
@@ -166,7 +167,7 @@ Image|Notes|
 |<img src="https://i.imgur.com/GO5K9MK.jpg" width="300">|Rear panel, showing an example of how to modify the rear panel.|
 
 ### 3D-printed front panel buttons
-If you have access to a 3D printer, then you can print yourself some face buttons using the STL file here: https://www.thingiverse.com/thing:5029004. Kudos to 'galaxius' for kindly designing and printing the buttons for my own modified monitors.
+If you have access to a 3D printer, then you can print yourself some face buttons using the STL file here: https://www.thingiverse.com/thing:5029004. The STL file is also available on this GitHub page in the '..\Faceplate Button' directory. Kudos to 'galaxius' for kindly designing and printing the buttons for my own modified monitors.
 
 Alternatively, for a small fee, I can provide you with two 3D printed buttons for switching between RGB and Line A. If you are interested, you can drop me an email: oo2@outlook.com. The cost is $5 AUD + shipping for 2 buttons. I can also sand and paint them for you for an additional $5 AUD - I will paint them with three coats of Tamiya Acrylic.
 
@@ -180,7 +181,27 @@ Image|Notes|
 |<img src="https://i.imgur.com/xH0grE9.gif" width="300">|Button video - view from inside case.|
 |<img src="https://i.imgur.com/JDGMtNc.gif" width="300">|Button video - view from front (unsanded + painted prototype button)|
 
+### Reproduction faceplate decals
+With gracious thanks to Industrial Designer, Evan Twyford, we now have templates for creating reproduction faceplate decals to suit monitors with the following configurations:
+
+* Modified monitors with 7mm x 7mm button holes for Line A, and RGB. Suitable for monitors using 3D-printed buttons available on this GitHub page - Note: **currently untested** - if you have created a panel with this configuration, please let me know your results!
+* Modified monitors with 10mm x 10mm button holes for Line A, and RGB. Suitable for monitors where you have your own solution for faceplate buttons and / or desire the original 10mm x 10mm hole.
+* Original N6 monitors with 10mm x 10mm button holes for Line A, Line B, and RGB. Suitable for monitors where Line B is also present, as is the case for original, unmodified N6 models.
+
+The decals are available on this GitHub page in the '..\Faceplate Decals' directory. As advised by Evan, the PDF drawing will have just about all the info you need to know to have these decals recreated. Separate DXF file for the die-cut pattern is also provided if needed, but it is included in a layer in the PDF.
+
+If you are based in the US, you may find the following information provided by Evan regarding printers / vendors useful:
+
+* [Gamma Ray Graphics](https://www.gammaraygraphics.com/) - cheaper option (~$20 ea), colour matching not perfect, thinner labels.
+* [MPC - Metalphoto of Cincinnati](https://www.mpofcinci.com/) - $400 setup cost, polyester nameplates are an accurate reproduction. This company, or similar, should have no problem meeting OEM spec.
+
+Image|Notes|
+-----|-----|
+|<img src="https://i.imgur.com/JRme1tc.jpg" width="300">|An example image provided by Evan Twyford showing 2 PVM-14N6U monitors with reproduction faceplate decals produced by Gamma Ray Graphics|
+
 ## References and acknowledgements
+* Evan Twyford, Industrial Designer - for creating and providing faceplate decal design files to suit original and modified monitors.
+* galaxius for designing and printing 3D-printable face buttons.
 * The official service manual for the 'SIIA' chassis: http://diagramas.diagramasde.com/otros/SSM-20N5U_9976686010-00e.pdf
 * freakaftr8's 'Sony SSM-20N5U RGB mod!' guide on the Shmups forum: https://shmups.system11.org/viewtopic.php?f=6&t=66067&p=1400712#p1400712
 * freakaftr8 for his patience with answering my questions on Reddit and providing additional guidance.
