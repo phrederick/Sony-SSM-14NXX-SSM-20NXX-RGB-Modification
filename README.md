@@ -37,23 +37,30 @@ This guide is specifically for you if you own any of the following monitors, and
 ### PVM models
 This guide may also be useful to you if you own any of the monitors from the table below, as they are also based on the same chassis as the aforementioned 'SSM-XXXXX' monitors.
 
-|14" Models|20" Models|
-|----------|----------|
-|PVM-14N5A|PVM-20N5A|
-|PVM-14N5E|PVM-20N5E|
-|PVM-14N5MDE|--|
-|PVM-14N5U|PVM-20N5U|
-|PVM-14N6A|PVM-20N6A|
-|PVM-14N6E|PVM-20N6E|
-|PVM-14N6U|PVM-20N6U|
+|14" Models|20" Models|Notes|
+|----------|----------|-----|
+|PVM-14N5A|PVM-20N5A|Moddable - see notes below
+|PVM-14N5E|PVM-20N5E|Moddable - see notes below
+|PVM-14N5MDE|--|Moddable - see notes below
+|PVM-14N5U|PVM-20N5U|Moddable - see notes below
+|PVM-14N6A|PVM-20N6A|This monitor already has RGB
+|PVM-14N6E|PVM-20N6E|This monitor already has RGB
+|PVM-14N6U|PVM-20N6U|This monitor already has RGB
 
 Modifying the PVM models is slightly different, and perhaps even easier depending on your perspective. The mod differences specific to PVM models that I am aware of are:
 
-1. **Important** - Your PVM may or may not have a connector and wiring harness pre-installed at connector CN403 on the A board. If your monitor does not have this connector + harness, then you will need to route your own wires between the A and Q boards, but **be aware** that Sony made a mistake with the PCB labelling for this connector and it is reversed. On the PCB, the red pin is labelled as being closest to the front of the monitor, but the red pin is actually the one closest to the corner of the PCB; all other inputs are respectively reversed too. Therefore, from the corner of the PCB to the front, the pinouts are: R, GND, G, GND, B, GND, and Audio.
+1. **Important** - Your PVM may or may not have a connector and wiring harness pre-installed at connector CN403 on the A board. If your monitor does not have this connector + harness, then you will need to route your own wires between the A and Q boards, but **be aware** that Sony made a mistake with the PCB labelling for this connector and it is reversed. On the PCB, the red pin is labelled as being closest to the front of the monitor, but the red pin is actually the one closest to the corner of the PCB; all other inputs are respectively reversed too. Therefore, from the corner of the PCB to the front, the pinouts are: R, GND, G, GND, B, GND, and Audio. See the images section below for a picture with the corrected pinout.
 
 2. You may not need to make the same jumper cuts on the A board as noted in the instructions below, as they may already be absent.
 
 3. The BA7604N and MC14052BCP ICs may already be present on your model, which means you will not need to add them.
+
+4. If your monitor already has a connector and wiring harness between CN402 on the A board and CN1302 on the Q board (which it likely will if your monitor has Line B), then you can route your RGB sync pin to the emitter pin at Q1312 which is equivalent to jumping a wire to ESYNC at CN1302. See the images section below for a picture showing where to make the connection.
+
+|Image|Notes|
+|-----|-----|
+|<img src="https://i.imgur.com/FmWPSVE.jpg" width="300">| As per point 1 above, this image illustrates the corrected pinout for CN403. If you are wiring CN403 yourself because your PVM does not have a connector and wiring harness, keep this in mind.
+|<img src="https://i.imgur.com/OgMdGZ5.jpg" width="300">|As per point 4 above, if your PVM already has a connector between CN402 on the A board and CN1302 on the Q board, you can put a jumper wire between these two points instead of running a wire between A board and Q board which is necessary for models without aforementioned wiring harness between CN402 & CN1302.
 
 ## Tools List
 ### Required
@@ -200,6 +207,7 @@ Image|Notes|
 |<img src="https://i.imgur.com/JRme1tc.jpg" width="300">|An example image provided by Evan Twyford showing 2 PVM-14N6U monitors with reproduction faceplate decals produced by Gamma Ray Graphics|
 
 ## References and acknowledgements
+* Sam Theodore Byrd for PVM model-specific note on where to connect the external sync pin.
 * Evan Twyford, Industrial Designer - for creating and providing faceplate decal design files to suit original and modified monitors.
 * galaxius for designing and printing 3D-printable face buttons.
 * The official service manual for the 'SIIA' chassis: http://diagramas.diagramasde.com/otros/SSM-20N5U_9976686010-00e.pdf
