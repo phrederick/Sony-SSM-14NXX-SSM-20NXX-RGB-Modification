@@ -57,9 +57,11 @@ Modifying the PVM models is slightly different, and perhaps even easier dependin
 
 4. If your monitor already has a connector and wiring harness between CN402 on the A board and CN1302 on the Q board (which it likely will if your monitor has Line B), then you can route your RGB sync pin to the emitter pin at Q1312 which is equivalent to jumping a wire to ESYNC at CN1302. See the images section below for a picture showing where to make the connection.
 
+5. In the case of the PVM-14N5MDE, you may not need to add the 10 ohm resistor at R032, as it may already be present.
+
 |Image|Notes|
 |-----|-----|
-|<img src="https://i.imgur.com/FmWPSVE.jpg" width="300">| As per point 1 above, this image illustrates the corrected pinout for CN403. If you are wiring CN403 yourself because your PVM does not have a connector and wiring harness, keep this in mind.
+|<img src="https://i.imgur.com/FmWPSVE.jpg" width="300">| As per point 1 above, this image illustrates the corrected pinout for CN403. If you are wiring CN403 yourself because your PVM does not have a connector and wiring harness, keep this in mind. If you want to install your own pin header (as opposed to just soldering wires directly into the PCB holes), the type of header you need is one with a 2.54mm pitch.
 |<img src="https://i.imgur.com/OgMdGZ5.jpg" width="300">|As per point 4 above, if your PVM already has a connector between CN402 on the A board and CN1302 on the Q board, you can put a jumper wire between these two points instead of running a wire between A board and Q board which is necessary for models without aforementioned wiring harness between CN402 & CN1302.
 
 ## Tools List
@@ -108,7 +110,7 @@ At the high level, dismantling the monitor for this modification involves the fo
 
 ### Step 1.3 - Removing the A board
 1. Take a note / photo of all the connector locations.
-2. Discharge and remove the anode cap. An example of how to remove and discharge the anode cap for PVM's is illustrated and explained in Steve @ Retro Tech's video [here](https://www.youtube.com/watch?t=184&v=AZBh8YaPbQg).
+2. Discharge and remove the anode cap. An example of how to remove and discharge the anode cap for PVM's is illustrated and explained in Steve @ Retro Tech's video [here](https://www.youtube.com/watch?t=184&v=AZBh8YaPbQg). You may also wish to review [this video](https://www.youtube.com/watch?v=JeX5Y7Amk0o) if you prefer to use the discharge tool method.
 3. Disconnect the remaining connectors.
 4. Hold the A board firmly at the back and pull it outwards. There are no screws or tabs holding it down.
 
@@ -207,6 +209,7 @@ Image|Notes|
 |<img src="https://i.imgur.com/JRme1tc.jpg" width="300">|An example image provided by Evan Twyford showing 2 PVM-14N6U monitors with reproduction faceplate decals produced by Gamma Ray Graphics|
 
 ## References and acknowledgements
+* nrq for his additional notes on modding the PVM-14N5MDE; specifically regarding the R032 resistor, and the pin-header size.
 * Sam Theodore Byrd for PVM model-specific note on where to connect the external sync pin.
 * Evan Twyford, Industrial Designer - for creating and providing faceplate decal design files to suit original and modified monitors.
 * galaxius for designing and printing 3D-printable face buttons.
